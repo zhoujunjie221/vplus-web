@@ -40,12 +40,12 @@ Author:    F4H3M
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #000;
+  background-color: #27A91B;
   color: #fff;
 }
 
 ::selection {
-  background-color: #000;
+  background-color: #27A91B;
   color: #fff;
 }
 
@@ -2980,11 +2980,22 @@ td, th {
   text-align: left;
   color: #fff;
 }
+.footer-section .regulatory-info {
+  margin-top: 0px;
+  text-align: left;
+  color: #fff;
+}
 .footer-section .copyright-text i {
   color: #FF0000;
 }
+.footer-section .regulatory-info i {
+  color: #FF0000;
+}
 .footer-section .copyright-text a {
-  color: #fff;
+  color: #27A91B;
+}
+.footer-section .regulatory-info a {
+  color: #27A91B;
 }
 .footer-section #social {
   text-align: right;
