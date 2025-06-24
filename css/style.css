@@ -151,7 +151,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #233322;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -414,7 +414,7 @@ td, th {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #27A91B;
+  border-top-color: #27A91B; /* Outer ring */
   -webkit-animation: spin 2s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 2s linear infinite;
@@ -431,7 +431,7 @@ td, th {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #FFBF00;
+  border-top-color: #FFBF00; /* Middle ring */
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite;
@@ -447,7 +447,7 @@ td, th {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #fff;
+  border-top-color: #fff; /* Inner ring */
   -webkit-animation: spin 1.5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 1.5s linear infinite;
@@ -908,7 +908,7 @@ td, th {
 
 .dope-navbar-toggler .navbarToggler span {
   position: relative;
-  background-color: #222;
+  background-color: #FFBF00;
   border-radius: 3px;
   display: block;
   height: 2px;
@@ -1400,7 +1400,7 @@ td, th {
   margin: 20px 0px;
 }
 .banner-section .banner-right {
-  background: url(../img/screen-bg.png) center no-repeat;
+  background: url(../img/screen-bg.webp) center no-repeat;
   background-size: contain;
 }
 .banner-section .banner-right img {
@@ -1641,7 +1641,7 @@ td, th {
 }
 
 .explore-section {
-  background: url(../img/explore.jpg) right top no-repeat;
+  background: url(../img/explore.webp) right top no-repeat;
   background-size: cover;
   color: #fff;
 }
@@ -1659,9 +1659,9 @@ td, th {
 }
 .explore-section .overlay-bg {
   background: -webkit-gradient(linear, left top, right top, from(#000), to(rgba(235, 143, 169, 0)));
-  background: -webkit-linear-gradient(left, #000, rgba(235, 143, 169, 0));
-  background: -o-linear-gradient(left, #000, rgba(235, 143, 169, 0));
-  background: linear-gradient(to right, #000, rgba(235, 143, 169, 0));
+  background: -webkit-linear-gradient(left, #3caf1a, rgba(235, 143, 169, 0));
+  background: -o-linear-gradient(left, #3caf1a, rgba(235, 143, 169, 0));
+  background: linear-gradient(to right, #3caf1a, rgba(235, 143, 169, 0));
 }
 .explore-section .counter-wrap {
   margin-top: 30px;
@@ -1956,8 +1956,20 @@ td, th {
 }
 
 .screenshot-section {
-  background: #eee;
+  background: url(../img/bg-screen.webp) right top no-repeat;
+  background-size: cover;
+  color: #fff;
 }
+.screenshot-section h2 {
+  color: #fff;
+}
+.screenshot-section .overlay-bg {
+  background: -webkit-gradient(linear, left top, right top, from(#000), to(rgba(235, 143, 169, 0)));
+  background: -webkit-linear-gradient(left, #3caf1a, rgba(235, 143, 169, 0));
+  background: -o-linear-gradient(left, #3caf1a, rgba(235, 143, 169, 0));
+  background: linear-gradient(to right, #3caf1a, rgba(235, 143, 169, 0));
+}
+
 .screenshot-section .owl-nav {
   text-align: center;
   margin-top: 40px;
