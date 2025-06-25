@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /img/
+
+Sitemap: https://vplus.vastness-ph.com/sitemap.xml

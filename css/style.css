@@ -90,10 +90,14 @@ body {
   position: relative;
 }
 
-ol, ul {
+ul {
   margin: 0;
-  padding: 0;
-  list-style: none;
+  padding-left: 2em; 
+}
+
+ol {
+  margin: 0;
+  padding-left: 2em; 
 }
 
 select {
@@ -3047,9 +3051,13 @@ td, th {
 .footer-section .footer-cols #social li:first-child a {
   margin-left: 0px;
 }
+.footer-section .footer-cols ul {
+  padding: 0;
+}
 .footer-section .footer-cols ul li {
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
   color: #fff;
+  list-style: none;
 }
 .footer-section .footer-cols ul li a {
   color: #fff;
