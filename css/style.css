@@ -1490,11 +1490,7 @@ td, th {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.banner-section2 .overlay-bg {
-  background: url(../img/banner-overlay1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .banner-section2 .banner-left h1 {
   text-transform: uppercase;
   font-size: 22px;
@@ -1517,11 +1513,7 @@ td, th {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.banner-section3 .overlay-bg {
-  background: url(../img/banner-overlay.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .banner-section3 .banner-left h1 {
   text-transform: uppercase;
   font-size: 22px;
@@ -1550,11 +1542,6 @@ td, th {
 }
 .featured-section .single-logo img {
   text-align: center;
-  /* -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%); */
   opacity: .5;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1565,11 +1552,7 @@ td, th {
   -ms-transform: scale(0.9, 0.9);
   -webkit-transform: scale(0.9, 0.9);
   transform: scale(0.9, 0.9);
-  /* -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -o-filter: grayscale(0%);
-  filter: grayscale(0%); */
+
   opacity: 1;
 }
 
